@@ -1,1 +1,1 @@
-web: gunicorn app:poet
+web: gunicorn poet:app
