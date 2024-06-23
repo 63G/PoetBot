@@ -43,8 +43,8 @@ def init_app(app):
 
         return jsonify({"message": bot_response})
 
-if __name__ == "__main__":
-    from flask import Flask
-    app = Flask(__name__)
-    init_app(app)
-    app.run(debug=False)
+# if __name__ == "__main__":
+#     from flask import Flask
+#     app = Flask(__name__)
+#     init_app(app)
+#     app.run(debug=False)
